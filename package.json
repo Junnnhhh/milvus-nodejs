@@ -1,0 +1,23 @@
+{
+  "name": "milvus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@langchain/community": "^0.0.32",
+    "@langchain/openai": "^0.0.14",
+    "@zilliz/milvus2-sdk-node": "^2.3.5",
+    "dot-env": "^0.0.1",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "langchain": "^0.1.21",
+    "openai": "^4.28.0"
+  }
+}
